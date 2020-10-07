@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guiFOs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css" id="styleSheet">
+</head>
+<body>
+
+    <header class="gradient" id="topBar">
+        <p class="txtTopBar" id="txtTopBarId">¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</p>
+    </header>
+
+    <section class="sectionMenu" id="sectionMenuId">
+        <img class="imgGuifos" id="imgGuifosId" src="./assets/gifOF_logo.png" alt="gifOSLogo">
+        
+        <div class="menu">
+            
+            <button class="btnCrearGif" id="btnCrearGifosId">Crear Guifos</button>
+            <button class="btnMenu" id="btnThemeId"> Elegir Tema</button>
+            <button class="btnMenu" id="btnArrowId"><img  id="img"  src="./assets/dropdown.svg" alt="dropdown"></button>
+            <button class="btnMisGuifos" id="btnMisGuifosId"><u>M</u>is Guifos</button>
+            <nav class="themeMenu" id="themeMenuId">
+                <ul>
+                    <li><button class="btnThemeMenu" id="btnSailorDayId" type="button" ><u>S</u>ailor Day</button></li>
+                    <li><button class="btnThemeMenu" id="btnSailorNightId" type="button"><u>S</u>ailor Night</button></li>
+                </ul>
+            </nav>
+            
+        </div>
+        
+    </section>
+
+    <section class="sectionSearch" id="sectionSearchId"> 
+        <div class="containerSearch" id="containerSearchId">
+            <div class="headerSearch"><label id="txtBuscarId" class="txtBuscar">Buscar</label>
+            </div>
+            <div class="search" id="searchId">
+                <input class="inputSearch" id="inputSearchId" type="text" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…">
+                
+                <button id="btnSearchId" class="btnSearch"><img id="imgSearchId" class="imgSearch" src="./assets/lupa.svg" alt="lupa">Buscar</button>
+            </div>
+        </div>    
+        <div class="searchAutocomplete" id="searchAutocompleteId">
+            <div class="containerAutocomplete">
+                <button class="btnSearchResult" id="btnSearchSugId1" value="Sheldon">Sheldon</button>
+                <button class="btnSearchResult" id="btnSearchSugId2" value="Friends">Friends</button>
+                <button class="btnSearchResult" id="btnSearchSugId3" value="Risas">Risas</button>
+            </div>    
+        </div>
+        <div id="historySearch"></div>
+        
+    </section> 
+
+    <section class="sectionSug" id="sectionSugId">
+        <div class="txtTitle" id="txtSuggestionId">Hoy te sugerimos:</div>
+    
+        <div class="suggestionGif" id="suggestionGifId">
+            <div class="cont">
+                <div class="cardGif" id="cardGifId1">
+                    <div class="gradient" id="topGifId1">
+                        <img src="./assets/button3.svg" alt="cruz">
+                    </div>
+                    <div class="containerGif" id="containerGif1">
+                        <img src="./assets/cargando-loading-019.gif" alt="" id="gifId1" class="gif">
+                        <button class="btnVerMas" id="btnVerMas1">Ver más...</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cont">
+                <div class="cardGif" id="cardGifId2">
+                    <div class="gradient" id="topGifId2">
+                        <img src="./assets/button3.svg" alt="cruz">
+                    </div>
+                    <div class="containerGif" id="containerGif2">
+                        <img src="./assets/cargando-loading-019.gif" alt="" id="gifId2" class="gif">
+                        <button class="btnVerMas" id="btnVerMas2">Ver más...</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cont">
+                <div class="cardGif" id="cardGifId3">
+                    <div class="gradient" id="topGifId3">
+                        <img src="./assets/button3.svg" alt="cruz">
+                    </div>
+                    <div class="containerGif" id="containerGif3">
+                        <img src="./assets/cargando-loading-019.gif" alt="" id="gifId3" class="gif">
+                        <button class="btnVerMas" id="btnVerMas3">Ver más...</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cont">
+                <div class="cardGif" id="cardGifId4">
+                    <div class="gradient" id="topGifId4">
+                        <img src="./assets/button3.svg" alt="cruz">
+                    </div>
+                    <div class="containerGif" id="containerGif4">
+                        <img src="./assets/cargando-loading-019.gif" alt="" id="gifId4" class="gif">
+                        <button class="btnVerMas" id="btnVerMas4">Ver más...</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sectionTendency" id="sectionTendencyId">
+        <div class="txtTitle" id="txtTendencyId">Tendencias</div>
+            <div class="gifTendency" id="gifTendencyId">
+            <!-- contendor con las tendencias -->
+            </div>
+        
+        
+    </section>
+    <script src="./js/menu.js" ></script>  
+</body>
+</html>

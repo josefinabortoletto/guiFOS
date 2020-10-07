@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Gif</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css" id="styleSheet">
+</head>
+<body>
+    <header class="gradient" id="topBar">
+        <p class="txtTopBar" id="txtTopBarId">¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</p>
+    </header>
+
+    <section class="sectionMenuUp" id="sectionMenuUpId">
+        <div class="menuUpload" id="menuUpload">
+            <a href="./index.html"><img class="returnIni" src="./assets/arrow.svg" alt="Volver atras"></a>
+            <a href="./index.html"><img class="imgGuifos" id="imgGuifosId" src="./assets/gifOF_logo.png"
+                    alt="gifOSLogo"></a>
+        </div>
+        <div class="menu">
+    
+            <button class="btnMenu" id="btnThemeId"> Elegir Tema</button>
+            <button class="btnMenu" id="btnArrowId"><img id="img" src="./assets/dropdown.svg"
+                    alt="dropdown"></button>
+            <button class="btnMisGuifos" id="btnMisGuifosId"><u>M</u>is Guifos</button>
+            <nav class="themeMenu" id="themeMenuId">
+                <ul>
+                    <li><button class="btnThemeMenu" id="btnSailorDayId" type="button"><u>S</u>ailor Day</button></li>
+                    <li><button class="btnThemeMenu" id="btnSailorNightId" type="button"><u>S</u>ailor Night</button></li>
+                </ul>
+            </nav>
+    
+        </div>
+        <div>
+    
+        </div>
+    </section>
+    <section class="creaateGuifos">
+        <div class="windowCreate" id="windowsCreateId">
+            <div class="gradient" id="headerWindow">Crear Guifos</div>
+            <div class="titleWindows" id="titleWindowsId">
+                <img class="imgWin" src="./assets/window_img.png" alt="window">
+                <p><b>Aquí podrás crear tus propios guifos</b></p>
+            </div>
+            <div class="description">
+                <p>Crear tu guifo es muy fácil, graba cualquier imagen con tu cámara y obtén guifos personalizados. Los pasos
+                    para crear tu guifo son:
+                    <br>
+                    <b>1)</b> Dar permisos de acceso a la cámara (sólo por el tiempo de uso)<br>
+                    <b>2)</b> Capturar tu momento guifo<br>
+                    <b>3)</b> Revisar el momento<br>
+                    <b>4)</b> Listo para subir y compartir!<br>
+                    ¿Quieres comenzar a crear tu <b>guifo</b> ahora?</p>
+            </div>
+            <div class="btnWindow">
+                <button type="button" id="btnCancelarId" class="btnCancelar">Cancelar</button>
+                <button type="button" id="btnComenzarId" class="btnComenzar">Comenzar</button>
+            </div>
+        
+        </div>
+        <div class="windowPrecapture" id="windowPrecaptureId">
+            <div class="gradient" id="headerPreCapture">
+                <p> Chequeo Antes de Empezar</p>
+                <img id="arrowPaso2Id" src="./assets/button3.svg" alt="">
+            </div>
+            <div class="containerImgPrecapture"><video id="imgPrecapture" src=""></video></div>
+            <div class="btnPrecapture">
+                <button type="button" class="btnImgCapturar" id="btnImgCapturarId"><img src="./assets/camera.svg" alt="camera"></button>
+                <button type="button" class="btnCapturar" id="btnCapturarId">Capturar</button>
+            </div>
+        </div>
+        <div class="windowCapture" id="windowCaptureId">
+            <div class="gradient" id="headerCapture">   
+                <p>Capturando Tu Guifo</p>
+                <img id="arrowPaso3Id" src="./assets/button_close.svg" alt="salir">
+            </div>
+            <div class="containerImgCapture"><video id="imgCaptureId" src=""></video></div>
+            <div class="btnCapture">
+                <div class="cronometer" id="cronometerId">00:00:03:06</div>
+                <button type="button" class="btnImgRecording" id="btnImgRecordingId"><img src="./assets/recording_dark.svg" alt=""></button>
+                <button type="button" class="btnListo" id="btnListoId">Listo</button>
+            </div>
+        </div>
+
+        <div class="windowPreview" id="windowPreviewId">
+            <div class="gradient" id="headerPreview">
+                <p>Vista Previa</p>
+        
+            </div>
+            <div class="containerImgPreview"><img id="gifPreviewId" src="" alt="imgCamara"></div>
+            <div class="btnPreview">
+                <div class="cronometerPreview" id="cronometerPreviewId">00:00:10:03</div>
+                <div class="forwardImg"><img src="./assets/forward.svg" alt=""></div>
+                <div class="download"><img src="./assets/download.gif" alt=""></div>
+                <button type="button" class="btnRepetirCaptura" id="btnRepetirCapturaId">Repetir Captura</button>
+                <button type="button" class="btnSubirGifo" id="btnSubirGifoId">Subir Guifo</button>
+            </div>
+        </div>
+
+        <div class="windowUploading" id="windowUploadingId">
+            <div class="gradient" id="headerUploading">
+                <p>Subiendo Guifo</p>
+                <img id="arrowPaso5Id" src="./assets/button_close.svg" alt="salir">
+        
+            </div>
+            <div class="containerUploading">
+                
+                    <img class="imgGlobe" src="./assets/globe_img.png" alt="salir">
+                <div class="contenidoUp">
+                    <p><b>Estamos subiendo tu guifo…</b></p>
+                    <div><img src="./assets/download.gif" alt=""></div>
+                    <p>Tiempo restante: <s>38 años</s> algunos minutos</p>
+                </div>
+            </div>
+            <div class="btnUploading">
+                <button type="button" class="btnCancelarUploading" id="btnCancelarUploadingId">Cancelar</button>
+            </div>
+        </div>
+
+        <div class="windowGifOk" id="windowGifOkId">
+            <div class="gradient" id="headerGifOk">
+                <p>Guifo Subido Con Éxito</p>
+                <img id="arrowIdPaso6" src="./assets/button_close.svg" alt="salir">
+        
+            </div>
+            <div class="containerGifOk">
+                <div class="imgGifOk" id= "imgGifOkId"><img id="miGifOkId" src="" alt="imgCamara"></div>
+                <div class="msjExito">
+                    <p><b>Guifo creado con éxito</b></p>
+                    <button class="btnGifOk" id="btnCopiarId" type="button">Copiar Enlace Guifo</button>
+                    <button class="btnGifOk" id="btnDescargarId" type="button">Descargar Guifo</button>
+                </div>
+            </div>
+            <div class="footerGifOk">
+        
+        
+                <button type="button" class="btnGifOkLIsto" id="btnGifOkLIstoId">Listo</button>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="misGif" id="sectionmisGifId">
+
+        <div class="txtTitle" id="misGifId">Mis Guifos</div>
+        <div class="contenedorMisGif" id="contendorMisGifId">
+            <!-- contendor de Gif generados -->
+        </div>
+    </section>
+
+<script src="./js/upload.js"></script>
+<script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+</body>
+</html>
